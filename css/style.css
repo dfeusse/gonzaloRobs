@@ -1,0 +1,118 @@
+/* GLOBAL
+-------------------------------------------------- */
+body {
+  	padding-bottom: 40px;
+}
+
+/* HEADER / NAV 
+-------------------------------------------------- */
+.header {
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color: #3d3d3d;
+}
+#headerImgDiv {
+	float:left;
+}
+#headerImg {
+	width:80px;
+}
+#headerTitleDiv {
+	display: table;
+	height: 80px;
+}
+#headerTitle {
+	color: #d9d9d9;
+	display: table-cell;
+  	vertical-align: middle;
+  	padding-left: 10px;
+
+  	font-size: 48px;
+  	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   	font-weight: 300;
+}
+#buttonDiv {
+
+}
+#button {
+	
+
+}
+/*
+--------------
+button
+--------------
+*/
+.btn.btn-inverse-outline:hover {
+	/*
+  	border: 1px solid #fff;
+	color: #fff;
+  	*/
+  	/* border: 1px solid #FF4136; */
+  	border: 1px solid #d9d9d9;
+	color: #d9d9d9;
+}
+
+.btn {
+  	/* margin: 22px auto 0; WHAT WAS CENTERING THE BLOCK */
+	/* max-width: 240px; */
+	max-width: 100px;
+  
+  	border: 1px solid #787878;
+	color: #787878;
+  
+	font-family: "Gotham SSm A","Gotham SSm B",Helvetica,Arial,sans-serif;
+	font-weight: 500;
+	/* text-transform: uppercase; */
+	text-decoration: none !important;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.btn-block {
+	display: block;
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+	}
+.btn-lg, .btn-group-lg>.btn {
+	/* padding: 16px 16px; */
+	padding: 5px 5px;
+	font-size: 15px;
+	/* line-height: 1.33; MAKES IT A BIT TALLER */
+	border-radius: 2px;
+}
+.btn.btn-inverse-outline {
+	color:#787878;
+	float:right;
+	/* margin-top:10px; */
+	margin-top:25px;
+}
+
+/* BODY
+-------------------------------------------------- */
+.mainQueryTopic {
+	font-family: helvetica, sans-serif;
+	font-size: 80px;
+	font-weight: bold;
+	/* color: rgb(221, 221, 221); */
+	color: #c4c4c4;
+}
+#topicForm {
+	margin-top:5px;
+	margin-bottom: 10px;
+}
+.formHeaderLabel {
+	font-family: helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+.resultData {
+	font-family: helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #ababab;
+}
